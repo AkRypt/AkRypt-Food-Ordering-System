@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Choose a Restaurant:"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+
+        <ImageButton
+            android:id="@+id/kfc"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/kfc"
+            android:scaleType="centerCrop"
+            android:background="#000000"
+            android:layout_marginEnd="2dp"
+            android:onClick="getRestaurant"/>
+
+        <ImageButton
+            android:id="@+id/indiblaze"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/indiblaze"
+            android:scaleType="centerCrop"
+            android:background="#000000"
+            android:onClick="getRestaurant"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/r1">
+
+        <ImageButton
+            android:id="@+id/papajohn"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/papajohn"
+            android:scaleType="centerCrop"
+            android:background="#000000"
+            android:layout_marginEnd="2dp"
+            android:onClick="getRestaurant"/>
+
+        <ImageButton
+            android:id="@+id/tacobell"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/tacobell"
+            android:scaleType="centerCrop"
+            android:background="#000000"
+            android:onClick="getRestaurant"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

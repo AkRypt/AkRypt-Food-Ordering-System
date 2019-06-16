@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "769021002801",
+    "firebase_url": "https://akryptfoodorderingsystem.firebaseio.com",
+    "project_id": "akryptfoodorderingsystem",
+    "storage_bucket": "akryptfoodorderingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769021002801:android:01e020bd185e0531",
+        "android_client_info": {
+          "package_name": "com.example.akrypt_food_ordering_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769021002801-4krpmu8tmf4tprbb5gig4rsa6v6ep0oj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akrypt_food_ordering_system",
+            "certificate_hash": "bed31baedcc82eff0d38b968e27f20ff059af251"
+          }
+        },
+        {
+          "client_id": "769021002801-5jonhksnlk9h9kqa8u2gqjs190v26kgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4ACp0vGLHV87AIiKM5Lz6GBLjvEbwDas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769021002801-5jonhksnlk9h9kqa8u2gqjs190v26kgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
