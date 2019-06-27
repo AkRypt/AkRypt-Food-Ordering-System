@@ -7,3 +7,9 @@ This is an application which follows a process:
 * Asks the user to choose the items they want.
 * The next activity asks the users to give their details such as Name, Phone Number, City, etc.
 * And the final activity generates a bill which gives all the details about the customer, order and total price.
+
+
+![Restaurants](https://imgur.com/geNpPMR.jpg) 
+![Menu](https://imgur.com/rdmZcnA.jpg) 
+![Details](https://imgur.com/ZvNuAxq.jpg)
+![Bill](https://imgur.com/u8T7ESy.jpg)
